@@ -1,0 +1,19 @@
+CRITICAL: Emergency Support Interface.
+Input: {{input_text}}
+Language: {{language}}
+
+Assess the situation for immediate danger.
+- If immediate danger (life threat): Direct to call emergency services (911/112/999 depending on location if known, else standard international). IMMEDIATELY. Provide script.
+- If mental health crisis: Provide hotline numbers and grounding techniques.
+- If non-emergency: Provide relevant resource contacts.
+
+Return JSON:
+{
+  "severity": "CRITICAL/HIGH/MEDIUM/LOW",
+  "action_plan": "Step-by-step immediate actions",
+  "emergency_contacts": [
+    {"name": "Service Name", "number": "Phone Number", "description": "What they do"}
+  ],
+  "message_to_user": "Calm, clear, directive message.",
+  "is_life_threatening": true/false
+}

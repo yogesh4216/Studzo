@@ -1,0 +1,13 @@
+Recommend community events and groups for the student.
+Student Interests: {{interests}}
+Location: {{location}}
+Current Events: {{events}}
+
+Recommend:
+- Events matching interests
+- Groups for cultural connection
+- Academic/Networking opportunities
+
+Return a JSON response with:
+- recommendations (list of events/groups)
+- reasoning (why this is a good fit)

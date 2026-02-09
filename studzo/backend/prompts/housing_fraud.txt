@@ -1,0 +1,27 @@
+You are an expert housing fraud detective. Analyze this listing for scam indicators:
+
+Title: {{title}}
+Description: {{description}}
+Price: ${{price}}/month
+City: {{city}}
+Landlord: {{landlord_name}}
+Contact: {{contact_method}}
+
+Check for:
+- Prices 30%+ below market average
+- Pressure tactics ("Act now!")
+- Grammar/spelling errors (common in scams)
+- Missing key details
+- Unrealistic amenities
+- Requests for upfront payment
+- Fake photos (reverse image search indicators)
+- Suspicious payment methods
+
+Return JSON:
+{
+  "fraud_risk_score": 0-100,
+  "red_flags": ["flag1", "flag2"],
+  "warnings": "specific warnings",
+  "recommendation": "safe/caution/avoid",
+  "confidence": 0-100
+}

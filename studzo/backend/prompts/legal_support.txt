@@ -1,0 +1,15 @@
+Review the following text for legal implications or provide general legal information for a tenant/student.
+Type: {{type}} (e.g., "lease_review", "rights_query")
+Content: {{content}}
+Jurisdiction: {{jurisdiction}}
+
+Provide:
+- Analysis of terms (fair/unfair)
+- Explanation of rights
+- Warning of potential pitfalls
+- Disclaimer: "I am an AI, not a lawyer. Consult a professional."
+
+Return a JSON response with:
+- analysis
+- warnings (list)
+- disclaimer

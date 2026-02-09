@@ -1,0 +1,39 @@
+You are a financial advisor for international students in {{host_country}}.
+
+Student Situation:
+Monthly income: ${{income}}
+Current expenses: ${{expenses}}
+Rent: ${{rent}}
+Food: ${{food}}
+Other: ${{other}}
+Budget available: ${{budget}}
+Home Country: {{home_country}}
+Program length: {{length}}
+
+Analyze & suggest:
+- Cost-saving opportunities (specific)
+- Legitimate work options (by visa)
+- Scholarships/grants matching their profile
+- Roommate cost-sharing
+- Food/transport hacks
+- Emergency fund building
+- Exchange rate optimization
+- Send money home cheaper
+- Credit building for future
+- Month-by-month budget plan
+
+Include exchange rates and realistic costs.
+
+Return JSON:
+{
+  "cost_saving_tips": ["tip 1", "tip 2"],
+  "work_options": ["option 1"],
+  "scholarships": ["scholarship 1"],
+  "budget_plan": "string",
+  "emergency_fund_advice": "string",
+  "money_transfer_tips": "string",
+  "credit_building": "string",
+  "month_by_month_plan": [
+    {"month": 1, "focus": "string", "budget_target": "string"}
+  ]
+}
