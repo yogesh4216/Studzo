@@ -79,6 +79,12 @@ npm run dev
 - `POST /api/v1/ai/job-finder` - Find student jobs
 - `POST /api/v1/ai/health-insurance` - Insurance policy analysis
 
+## 🔑 Demo Credentials
+
+For testing the authentication flow:
+- **Email**: `demo@studzo.com`
+- **Password**: `demo123`
+
 ## 🏆 Hackathon Project
 
 Built for the Google Gemini 3 Hackathon. Studzo aims to make studying abroad accessible and less stressful for international students worldwide.
